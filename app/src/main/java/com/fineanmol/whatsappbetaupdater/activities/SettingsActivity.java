@@ -146,6 +146,7 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
         }
     }
 
+    @SuppressLint("StringFormatMatches")
     @Override
     public void onSharedPreferenceChanged(SharedPreferences sharedPreferences, String key) {
         Preference preference = (Preference) findPreference(key);

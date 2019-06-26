@@ -45,7 +45,7 @@ public class UtilsApp {
     }
 
     public static String generatePayPalDonationLink(String amount, String currency) {
-        return "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=" + Config.PAYPAL_DONATION + "&currency_code=" + currency + "&amount=" + amount + "&item_name=Donation%20for%20%22Beta%20Updater%20for%20WhatsApp%22";
+        return "https://www.paypal.me/fineanmol";
     }
 
     public static String getPayPalCurrency() {
