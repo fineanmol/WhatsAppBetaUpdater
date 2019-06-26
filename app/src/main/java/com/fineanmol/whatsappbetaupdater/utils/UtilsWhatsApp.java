@@ -1,9 +1,9 @@
-package com.javiersantos.whatsappbetaupdater.utils;
+package com.fineanmol.whatsappbetaupdater.utils;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
 
-import com.javiersantos.whatsappbetaupdater.models.Version;
+import com.fineanmol.whatsappbetaupdater.models.Version;
 
 public class UtilsWhatsApp {
 

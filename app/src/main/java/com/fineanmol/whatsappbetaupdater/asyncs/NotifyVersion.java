@@ -1,13 +1,13 @@
-package com.javiersantos.whatsappbetaupdater.asyncs;
+package com.fineanmol.whatsappbetaupdater.asyncs;
 
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.javiersantos.whatsappbetaupdater.callback.UpdaterCallback;
-import com.javiersantos.whatsappbetaupdater.enums.UpdaterError;
-import com.javiersantos.whatsappbetaupdater.models.Update;
-import com.javiersantos.whatsappbetaupdater.utils.UtilsNetwork;
-import com.javiersantos.whatsappbetaupdater.utils.UtilsWhatsApp;
+import com.fineanmol.whatsappbetaupdater.callback.UpdaterCallback;
+import com.fineanmol.whatsappbetaupdater.enums.UpdaterError;
+import com.fineanmol.whatsappbetaupdater.models.Update;
+import com.fineanmol.whatsappbetaupdater.utils.UtilsNetwork;
+import com.fineanmol.whatsappbetaupdater.utils.UtilsWhatsApp;
 
 import java.lang.ref.WeakReference;
 

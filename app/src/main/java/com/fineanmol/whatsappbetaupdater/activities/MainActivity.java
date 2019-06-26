@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater.activities;
+package com.fineanmol.whatsappbetaupdater.activities;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -14,19 +14,19 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.javiersantos.whatsappbetaupdater.R;
-import com.javiersantos.whatsappbetaupdater.WhatsAppBetaUpdaterApplication;
-import com.javiersantos.whatsappbetaupdater.asyncs.GetLatestVersion;
-import com.javiersantos.whatsappbetaupdater.callback.UpdaterCallback;
-import com.javiersantos.whatsappbetaupdater.enums.UpdaterError;
-import com.javiersantos.whatsappbetaupdater.models.Update;
-import com.javiersantos.whatsappbetaupdater.utils.AppPreferences;
-import com.javiersantos.whatsappbetaupdater.utils.UtilsApp;
-import com.javiersantos.whatsappbetaupdater.utils.UtilsAsync;
-import com.javiersantos.whatsappbetaupdater.utils.UtilsDialog;
-import com.javiersantos.whatsappbetaupdater.utils.UtilsEnum;
-import com.javiersantos.whatsappbetaupdater.utils.UtilsUI;
-import com.javiersantos.whatsappbetaupdater.utils.UtilsWhatsApp;
+import com.fineanmol.whatsappbetaupdater.R;
+import com.fineanmol.whatsappbetaupdater.WhatsAppBetaUpdaterApplication;
+import com.fineanmol.whatsappbetaupdater.asyncs.GetLatestVersion;
+import com.fineanmol.whatsappbetaupdater.callback.UpdaterCallback;
+import com.fineanmol.whatsappbetaupdater.enums.UpdaterError;
+import com.fineanmol.whatsappbetaupdater.models.Update;
+import com.fineanmol.whatsappbetaupdater.utils.AppPreferences;
+import com.fineanmol.whatsappbetaupdater.utils.UtilsApp;
+import com.fineanmol.whatsappbetaupdater.utils.UtilsAsync;
+import com.fineanmol.whatsappbetaupdater.utils.UtilsDialog;
+import com.fineanmol.whatsappbetaupdater.utils.UtilsEnum;
+import com.fineanmol.whatsappbetaupdater.utils.UtilsUI;
+import com.fineanmol.whatsappbetaupdater.utils.UtilsWhatsApp;
 import com.mikepenz.iconics.IconicsDrawable;
 import com.mikepenz.material_design_iconic_typeface_library.MaterialDesignIconic;
 import com.pnikosis.materialishprogress.ProgressWheel;

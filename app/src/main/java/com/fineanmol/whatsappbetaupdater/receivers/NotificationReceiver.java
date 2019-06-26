@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater.receivers;
+package com.fineanmol.whatsappbetaupdater.receivers;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -9,15 +9,15 @@ import android.graphics.BitmapFactory;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationManagerCompat;
 
-import com.javiersantos.whatsappbetaupdater.R;
-import com.javiersantos.whatsappbetaupdater.WhatsAppBetaUpdaterApplication;
-import com.javiersantos.whatsappbetaupdater.activities.MainActivity;
-import com.javiersantos.whatsappbetaupdater.asyncs.NotifyVersion;
-import com.javiersantos.whatsappbetaupdater.callback.UpdaterCallback;
-import com.javiersantos.whatsappbetaupdater.enums.UpdaterError;
-import com.javiersantos.whatsappbetaupdater.models.Update;
-import com.javiersantos.whatsappbetaupdater.utils.AppPreferences;
-import com.javiersantos.whatsappbetaupdater.utils.UtilsWhatsApp;
+import com.fineanmol.whatsappbetaupdater.R;
+import com.fineanmol.whatsappbetaupdater.WhatsAppBetaUpdaterApplication;
+import com.fineanmol.whatsappbetaupdater.activities.MainActivity;
+import com.fineanmol.whatsappbetaupdater.asyncs.NotifyVersion;
+import com.fineanmol.whatsappbetaupdater.callback.UpdaterCallback;
+import com.fineanmol.whatsappbetaupdater.enums.UpdaterError;
+import com.fineanmol.whatsappbetaupdater.models.Update;
+import com.fineanmol.whatsappbetaupdater.utils.AppPreferences;
+import com.fineanmol.whatsappbetaupdater.utils.UtilsWhatsApp;
 
 public class NotificationReceiver extends BroadcastReceiver {
 

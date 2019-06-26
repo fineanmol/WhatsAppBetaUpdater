@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater.utils;
+package com.fineanmol.whatsappbetaupdater.utils;
 
 import android.content.Context;
 import android.os.AsyncTask;
@@ -6,11 +6,11 @@ import android.os.Environment;
 
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.javiersantos.whatsappbetaupdater.Config;
-import com.javiersantos.whatsappbetaupdater.R;
-import com.javiersantos.whatsappbetaupdater.callback.UpdaterCallback;
-import com.javiersantos.whatsappbetaupdater.enums.UpdaterError;
-import com.javiersantos.whatsappbetaupdater.models.Update;
+import com.fineanmol.whatsappbetaupdater.Config;
+import com.fineanmol.whatsappbetaupdater.R;
+import com.fineanmol.whatsappbetaupdater.callback.UpdaterCallback;
+import com.fineanmol.whatsappbetaupdater.enums.UpdaterError;
+import com.fineanmol.whatsappbetaupdater.models.Update;
 
 import java.io.BufferedReader;
 import java.io.File;

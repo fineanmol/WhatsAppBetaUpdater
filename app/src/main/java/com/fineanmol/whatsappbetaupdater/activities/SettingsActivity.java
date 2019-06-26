@@ -1,5 +1,6 @@
-package com.javiersantos.whatsappbetaupdater.activities;
+package com.fineanmol.whatsappbetaupdater.activities;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -8,10 +9,10 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 
-import com.javiersantos.whatsappbetaupdater.R;
-import com.javiersantos.whatsappbetaupdater.WhatsAppBetaUpdaterApplication;
-import com.javiersantos.whatsappbetaupdater.utils.AppPreferences;
-import com.javiersantos.whatsappbetaupdater.utils.UtilsApp;
+import com.fineanmol.whatsappbetaupdater.R;
+import com.fineanmol.whatsappbetaupdater.WhatsAppBetaUpdaterApplication;
+import com.fineanmol.whatsappbetaupdater.utils.AppPreferences;
+import com.fineanmol.whatsappbetaupdater.utils.UtilsApp;
 import com.lb.material_preferences_library.PreferenceActivity;
 import com.lb.material_preferences_library.custom_preferences.CheckBoxPreference;
 import com.lb.material_preferences_library.custom_preferences.ListPreference;
@@ -97,6 +98,7 @@ public class SettingsActivity extends PreferenceActivity implements SharedPrefer
         });
     }
 
+    @SuppressLint("StringFormatMatches")
     private void initPrefHoursNotification(ListPreference listPreference) {
         listPreference.setEntries(getResources().getStringArray(R.array.notification_hours));
         listPreference.setEntryValues(getResources().getStringArray(R.array.notification_hours_values));

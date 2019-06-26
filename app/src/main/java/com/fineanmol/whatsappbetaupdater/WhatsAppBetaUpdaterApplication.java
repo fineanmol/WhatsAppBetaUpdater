@@ -1,8 +1,8 @@
-package com.javiersantos.whatsappbetaupdater;
+package com.fineanmol.whatsappbetaupdater;
 
 import android.app.Application;
 
-import com.javiersantos.whatsappbetaupdater.utils.AppPreferences;
+import com.fineanmol.whatsappbetaupdater.utils.AppPreferences;
 import com.mikepenz.iconics.Iconics;
 import com.mikepenz.material_design_iconic_typeface_library.MaterialDesignIconic;
 

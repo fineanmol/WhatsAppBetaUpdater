@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater.models;
+package com.fineanmol.whatsappbetaupdater.models;
 
 public class Version implements Comparable<Version> {
 

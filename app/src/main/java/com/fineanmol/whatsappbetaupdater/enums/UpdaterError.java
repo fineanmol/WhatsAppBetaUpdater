@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater.enums;
+package com.fineanmol.whatsappbetaupdater.enums;
 
 public enum UpdaterError {
     NO_INTERNET_CONNECTION,

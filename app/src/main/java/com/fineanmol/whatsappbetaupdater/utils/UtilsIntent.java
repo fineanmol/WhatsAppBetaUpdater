@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater.utils;
+package com.fineanmol.whatsappbetaupdater.utils;
 
 import android.content.Intent;
 import android.net.Uri;

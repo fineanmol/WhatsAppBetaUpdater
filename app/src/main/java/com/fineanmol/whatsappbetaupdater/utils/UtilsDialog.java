@@ -1,4 +1,4 @@
-package com.javiersantos.whatsappbetaupdater.utils;
+package com.fineanmol.whatsappbetaupdater.utils;
 
 import android.app.Activity;
 import android.content.Context;
@@ -7,9 +7,9 @@ import android.view.View;
 
 import com.afollestad.materialdialogs.DialogAction;
 import com.afollestad.materialdialogs.MaterialDialog;
-import com.javiersantos.whatsappbetaupdater.R;
-import com.javiersantos.whatsappbetaupdater.WhatsAppBetaUpdaterApplication;
-import com.javiersantos.whatsappbetaupdater.models.Update;
+import com.fineanmol.whatsappbetaupdater.R;
+import com.fineanmol.whatsappbetaupdater.WhatsAppBetaUpdaterApplication;
+import com.fineanmol.whatsappbetaupdater.models.Update;
 
 import java.io.File;
 
@@ -114,7 +114,7 @@ public class UtilsDialog {
                 .setAction(context.getResources().getString(R.string.button_share), new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        String shareText = String.format(context.getResources().getString(R.string.snackbar_share), version, context.getResources().getString(R.string.app_name) + " " + "https://github.com/javiersantos/WhatsAppBetaUpdater/releases");
+                        String shareText = String.format(context.getResources().getString(R.string.snackbar_share), version, context.getResources().getString(R.string.app_name) + " " + "https://github.com/fineanmol/WhatsAppBetaUpdater/releases");
                         context.startActivity(UtilsIntent.getShareAPKIntent(file, shareText));
                     }
                 })

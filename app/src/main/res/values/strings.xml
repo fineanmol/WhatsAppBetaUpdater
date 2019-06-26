@@ -47,7 +47,7 @@
     <string name="settings_license">Open Source licenses</string>
     <string name="settings_googleplus">Join the community on Google+</string>
     <string name="settings_googleplus_description">Want to talk about new versions of WhatsApp and keep abreast of developments? Join to our community!</string>
-    <string name="settings_about">Made with %s by Javier Santos. Source code on GitHub.</string>
+    <string name="settings_about">Made with %s by Anmol Agarwal. Source code on GitHub.</string>
 
     <!--- Notifications, Toasts and Snackbars -->
     <string name="toast_tap">Tap again to close the app</string>
